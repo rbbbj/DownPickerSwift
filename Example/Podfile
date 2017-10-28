@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DownPickerSwift_Example' do
+  pod 'DownPickerSwift', :path => '../'
+
+  target 'DownPickerSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
