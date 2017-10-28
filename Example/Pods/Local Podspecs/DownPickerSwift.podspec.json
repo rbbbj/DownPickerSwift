@@ -1,0 +1,22 @@
+{
+  "name": "DownPickerSwift",
+  "version": "0.1.0",
+  "summary": "A short description of DownPickerSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rbbbj/DownPickerSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rbbbj": "robertasbaronas@hotmail.co"
+  },
+  "source": {
+    "git": "https://github.com/rbbbj/DownPickerSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DownPickerSwift/Classes/**/*"
+}

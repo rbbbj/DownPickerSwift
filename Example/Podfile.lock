@@ -1,0 +1,16 @@
+PODS:
+  - DownPickerSwift (0.1.0)
+
+DEPENDENCIES:
+  - DownPickerSwift (from `../`)
+
+EXTERNAL SOURCES:
+  DownPickerSwift:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DownPickerSwift: 687be061d6e7e135a78ee091abcf3f5c3f40d977
+
+PODFILE CHECKSUM: 7dde9453f8ee88ca42ccbc97bf386ae787c53682
+
+COCOAPODS: 1.3.1
