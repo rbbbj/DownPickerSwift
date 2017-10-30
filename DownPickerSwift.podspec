@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'DownPickerSwift'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of DownPickerSwift.'
+s.name             = 'DownPickerSwift'
+s.version          = '0.1.0'
+s.summary          = 'Library for creating DropDownList / ComboBox controls for iOS.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,28 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+s.description      = <<-DESC
+DownPickerSwift is an extremely light-weight class library for creating DropDownList / ComboBox controls for iOS that will behave like their HTML / Android counterparts. You'll only need a standard UITextField and few lines of code.
+DownPickerSwift is Swift port of Darkseal/DownPicker.
+DESC
 
-  s.homepage         = 'https://github.com/rbbbj/DownPickerSwift'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'rbbbj' => 'robertasbaronas@hotmail.co' }
-  s.source           = { :git => 'https://github.com/rbbbj/DownPickerSwift.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.homepage         = 'https://github.com/rbbbj/DownPickerSwift'
+# s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.author           = { 'rbbbj' => 'robertasbaronas@hotmail.com' }
+s.source           = { :git => 'https://github.com/rbbbj/DownPickerSwift.git', :tag => s.version.to_s }
+# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '8.0'
 
-  s.source_files = 'DownPickerSwift/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'DownPickerSwift' => ['DownPickerSwift/Assets/*.png']
-  # }
+s.source_files = 'DownPickerSwift/Classes/**/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+# s.resource_bundles = {
+#   'DownPickerSwift' => ['DownPickerSwift/Assets/*.png']
+# }
+
+# s.public_header_files = 'Pod/Classes/**/*.h'
+s.frameworks = 'UIKit'
+# s.dependency 'AFNetworking', '~> 2.3'
 end
+
