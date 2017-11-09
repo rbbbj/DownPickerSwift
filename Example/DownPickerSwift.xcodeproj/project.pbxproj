@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B6316F260AA2F66BC4B7E9D /* Pods_DownPickerSwift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AECB450839B36C4E0524984 /* Pods_DownPickerSwift_Tests.framework */; };
-		4E4BB8F876BA80910A3C4A64 /* Pods_DownPickerSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205485899D8EECF37EB74A51 /* Pods_DownPickerSwift_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		CB71600501CDAC49DB43E5CA /* Pods_DownPickerSwift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AA7D2104B8F3ACAB75D872 /* Pods_DownPickerSwift_Tests.framework */; };
+		F83E89081663B32537065D84 /* Pods_DownPickerSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5AFD150E3FA8B43F165381A /* Pods_DownPickerSwift_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CB9155ADBA10EBE4152D3BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		205485899D8EECF37EB74A51 /* Pods_DownPickerSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownPickerSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A1E642637C6E3CC7B0502F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1CB9155ADBA10EBE4152D3BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		25004C759B6D176E3F89002B /* Pods-DownPickerSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownPickerSwift_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownPickerSwift_Example/Pods-DownPickerSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2A1E642637C6E3CC7B0502F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DownPickerSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownPickerSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +41,14 @@
 		607FACE51AFB9204008FA782 /* DownPickerSwift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownPickerSwift_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		78A65FFCD5786539DDA111D3 /* Pods-DownPickerSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownPickerSwift_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownPickerSwift_Tests/Pods-DownPickerSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8AECB450839B36C4E0524984 /* Pods_DownPickerSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownPickerSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9029DDE7835C61269E0FC379 /* Pods-DownPickerSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownPickerSwift_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownPickerSwift_Tests/Pods-DownPickerSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		95C18CE3C7EE8A085B047EC7 /* Pods-DownPickerSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownPickerSwift_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownPickerSwift_Example/Pods-DownPickerSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E20AD335C5489FD38BB8E133 /* DownPickerSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DownPickerSwift.podspec; path = ../DownPickerSwift.podspec; sourceTree = "<group>"; };
-		FA30CC0DCAA9AFEBA58B4CC5 /* Pods-DownPickerSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownPickerSwift_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownPickerSwift_Example/Pods-DownPickerSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		62AA7D2104B8F3ACAB75D872 /* Pods_DownPickerSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownPickerSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		634E5D677DA1D6DBE6B5D87D /* Pods-DownPickerSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownPickerSwift_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownPickerSwift_Tests/Pods-DownPickerSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6785D6451FA7E8BC00296BF2 /* DownPickerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DownPickerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6785D64A1FA7F28A00296BF2 /* DownPickerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DownPickerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		736573810DC7CAD151AD53EF /* Pods-DownPickerSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownPickerSwift_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownPickerSwift_Example/Pods-DownPickerSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D5AFD150E3FA8B43F165381A /* Pods_DownPickerSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownPickerSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20AD335C5489FD38BB8E133 /* DownPickerSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DownPickerSwift.podspec; path = ../DownPickerSwift.podspec; sourceTree = "<group>"; };
+		FB82B73A52FE52688D6F0D94 /* Pods-DownPickerSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownPickerSwift_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownPickerSwift_Tests/Pods-DownPickerSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E4BB8F876BA80910A3C4A64 /* Pods_DownPickerSwift_Example.framework in Frameworks */,
+				F83E89081663B32537065D84 /* Pods_DownPickerSwift_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B6316F260AA2F66BC4B7E9D /* Pods_DownPickerSwift_Tests.framework in Frameworks */,
+				CB71600501CDAC49DB43E5CA /* Pods_DownPickerSwift_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +74,21 @@
 		08185B53DEE6CA57EF0FA249 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				205485899D8EECF37EB74A51 /* Pods_DownPickerSwift_Example.framework */,
-				8AECB450839B36C4E0524984 /* Pods_DownPickerSwift_Tests.framework */,
+				6785D64A1FA7F28A00296BF2 /* DownPickerSwift.framework */,
+				6785D6451FA7E8BC00296BF2 /* DownPickerSwift.framework */,
+				D5AFD150E3FA8B43F165381A /* Pods_DownPickerSwift_Example.framework */,
+				62AA7D2104B8F3ACAB75D872 /* Pods_DownPickerSwift_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		540B24D98B2040A6DE5F4BBF /* Pods */ = {
+		29CBCD72BF14D18D36FA665B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FA30CC0DCAA9AFEBA58B4CC5 /* Pods-DownPickerSwift_Example.debug.xcconfig */,
-				95C18CE3C7EE8A085B047EC7 /* Pods-DownPickerSwift_Example.release.xcconfig */,
-				9029DDE7835C61269E0FC379 /* Pods-DownPickerSwift_Tests.debug.xcconfig */,
-				78A65FFCD5786539DDA111D3 /* Pods-DownPickerSwift_Tests.release.xcconfig */,
+				736573810DC7CAD151AD53EF /* Pods-DownPickerSwift_Example.debug.xcconfig */,
+				25004C759B6D176E3F89002B /* Pods-DownPickerSwift_Example.release.xcconfig */,
+				FB82B73A52FE52688D6F0D94 /* Pods-DownPickerSwift_Tests.debug.xcconfig */,
+				634E5D677DA1D6DBE6B5D87D /* Pods-DownPickerSwift_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -96,8 +100,8 @@
 				607FACD21AFB9204008FA782 /* Example for DownPickerSwift */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				540B24D98B2040A6DE5F4BBF /* Pods */,
 				08185B53DEE6CA57EF0FA249 /* Frameworks */,
+				29CBCD72BF14D18D36FA665B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,12 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "DownPickerSwift_Example" */;
 			buildPhases = (
-				82B28C31A01FF99A890A7D6C /* [CP] Check Pods Manifest.lock */,
+				2756F2EA3BDE6E9129F6187D /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				83C3F868210C01F50F6669EE /* [CP] Embed Pods Frameworks */,
-				5916A45520414A9EB34445FF /* [CP] Copy Pods Resources */,
+				658F4B18C03AC018E9ABAC94 /* [CP] Embed Pods Frameworks */,
+				4EFCF2D5181F34AD725F00CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,12 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "DownPickerSwift_Tests" */;
 			buildPhases = (
-				32DA7D12CF791DF1D796FCBC /* [CP] Check Pods Manifest.lock */,
+				0758227EF25A981235C9DAEB /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				1A0DFC0277B1A93AB85F6316 /* [CP] Embed Pods Frameworks */,
-				8104A3E9EB38193F3EBD3EC8 /* [CP] Copy Pods Resources */,
+				6C43AB72AFB8D0790D1EF573 /* [CP] Embed Pods Frameworks */,
+				17032277C7443AD9B9C3D21B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,10 +219,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 9WVXMKT8E7;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 9WVXMKT8E7;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -264,22 +270,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1A0DFC0277B1A93AB85F6316 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownPickerSwift_Tests/Pods-DownPickerSwift_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		32DA7D12CF791DF1D796FCBC /* [CP] Check Pods Manifest.lock */ = {
+		0758227EF25A981235C9DAEB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -297,22 +288,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5916A45520414A9EB34445FF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownPickerSwift_Example/Pods-DownPickerSwift_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8104A3E9EB38193F3EBD3EC8 /* [CP] Copy Pods Resources */ = {
+		17032277C7443AD9B9C3D21B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -327,7 +303,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownPickerSwift_Tests/Pods-DownPickerSwift_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		82B28C31A01FF99A890A7D6C /* [CP] Check Pods Manifest.lock */ = {
+		2756F2EA3BDE6E9129F6187D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -345,7 +321,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		83C3F868210C01F50F6669EE /* [CP] Embed Pods Frameworks */ = {
+		4EFCF2D5181F34AD725F00CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownPickerSwift_Example/Pods-DownPickerSwift_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		658F4B18C03AC018E9ABAC94 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,6 +352,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownPickerSwift_Example/Pods-DownPickerSwift_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C43AB72AFB8D0790D1EF573 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownPickerSwift_Tests/Pods-DownPickerSwift_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -514,9 +520,10 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA30CC0DCAA9AFEBA58B4CC5 /* Pods-DownPickerSwift_Example.debug.xcconfig */;
+			baseConfigurationReference = 736573810DC7CAD151AD53EF /* Pods-DownPickerSwift_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9WVXMKT8E7;
 				INFOPLIST_FILE = DownPickerSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -529,9 +536,10 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95C18CE3C7EE8A085B047EC7 /* Pods-DownPickerSwift_Example.release.xcconfig */;
+			baseConfigurationReference = 25004C759B6D176E3F89002B /* Pods-DownPickerSwift_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9WVXMKT8E7;
 				INFOPLIST_FILE = DownPickerSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -544,8 +552,9 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9029DDE7835C61269E0FC379 /* Pods-DownPickerSwift_Tests.debug.xcconfig */;
+			baseConfigurationReference = FB82B73A52FE52688D6F0D94 /* Pods-DownPickerSwift_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9WVXMKT8E7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -565,8 +574,9 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78A65FFCD5786539DDA111D3 /* Pods-DownPickerSwift_Tests.release.xcconfig */;
+			baseConfigurationReference = 634E5D677DA1D6DBE6B5D87D /* Pods-DownPickerSwift_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9WVXMKT8E7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

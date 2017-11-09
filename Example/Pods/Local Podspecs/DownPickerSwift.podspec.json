@@ -1,15 +1,15 @@
 {
   "name": "DownPickerSwift",
   "version": "0.1.0",
-  "summary": "A short description of DownPickerSwift.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Library for creating DropDownList / ComboBox controls for iOS.",
+  "description": "DownPickerSwift is an extremely light-weight class library for creating DropDownList / ComboBox controls for iOS that will behave like their HTML / Android counterparts. You'll only need a standard UITextField and few lines of code.\nDownPickerSwift is Swift port of Darkseal/DownPicker.",
   "homepage": "https://github.com/rbbbj/DownPickerSwift",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "rbbbj": "robertasbaronas@hotmail.co"
+    "rbbbj": "robertasbaronas@hotmail.com"
   },
   "source": {
     "git": "https://github.com/rbbbj/DownPickerSwift.git",
@@ -18,5 +18,11 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "DownPickerSwift/Classes/**/*"
+  "source_files": "DownPickerSwift/Classes/**/*",
+  "resource_bundles": {
+    "DownPickerSwift": [
+      "DownPickerSwift/Assets/*.png"
+    ]
+  },
+  "frameworks": "UIKit"
 }
