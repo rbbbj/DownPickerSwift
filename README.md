@@ -22,7 +22,7 @@ pod 'DownPickerSwift'
 
 ## Author
 
-rbbbj, robertasbaronas@hotmail.co
+rbbbj, robertasbaronas@hotmail.com
 
 ## License
 
