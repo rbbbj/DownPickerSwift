@@ -1,6 +1,5 @@
 //
 //  DownPickerSwift.swift
-//  DownPickerSwiftTest
 //
 //  Created by Robertas Baronas on 07/10/2017.
 //  Copyright © 2017 Robertas Baronas. All rights reserved.
@@ -27,15 +26,13 @@ open class DownPickerSwift: UIControl {
         textField = tf
         toolbarStyle = .default
 
-        placeholder = "Tap to choose..."
-        placeholderWhileSelecting = "Pick an option..."
+        placeholder = "Tap"
+        placeholderWhileSelecting = "Pick"
         toolbarDoneButtonText = "Done"
         toolbarCancelButtonText = "Cancel"
         
-//        // hide the caret and its blinking
-//        [[textField valueForKey:@"textInputTraits"]
-//            setValue:[UIColor clearColor]
-//            forKey:@"insertionPointColor"];
+        // hide the caret and its blinking
+        textField.tintColor = .clear
         
         // set the placeholder
         textField.placeholder = placeholder
@@ -101,7 +98,7 @@ extension DownPickerSwift {
     }
     
     public func setPlaceholder(with str: String) {
-        textField.placeholder = str;
+        textField.placeholder = str
         
     }
     
@@ -188,30 +185,21 @@ extension DownPickerSwift: UITextFieldDelegate {
     }
 }
 
-// MARK: Private methods
+// MARK: Private Methods
 
 extension DownPickerSwift {
     
     fileprivate func showPicker() {
-        previousSelectedString = textField.text
+        if let previousSelectedString = previousSelectedString {
+            textField.text = previousSelectedString
+        } else {
+            textField.text = dataArray[0]
+            previousSelectedString = dataArray[0]
+        }
         
         textFieldPickerView.showsSelectionIndicator = true
         textFieldPickerView.dataSource = self
         textFieldPickerView.delegate = self
-        
-//                if textField?.text?.characters.count == 0 || !dataArray.contains((textField?.text)!) {
-//                    if placeholderWhileSelecting {
-//                        textField?.placeholder = placeholderWhileSelecting
-//                    }
-//                    // 0.1.31 patch: auto-select first item: it basically makes placeholderWhileSelecting useless, but
-//                    // it solves the "first item cannot be selected" bug due to how the pickerView works.
-//                    selectedIndex = 0
-//                }
-//                else {
-//                    if dataArray.contains((textField?.text)!) {
-//                        pickerView.selectRow((dataArray as NSArray).index(of: textField?.text ?? <#default value#>), inComponent: 0, animated: true)
-//                    }
-//                }
         
         // Setup toolbar
         let toolbar = UIToolbar()
@@ -240,7 +228,7 @@ extension DownPickerSwift {
     
     @objc func cancelClicked() {
         textField.resignFirstResponder()
-        if previousSelectedString?.count == 0 || !dataArray.contains(previousSelectedString!) {
+        if let previousSelectedString = previousSelectedString, previousSelectedString.count == 0 || !dataArray.contains(previousSelectedString) {
             textField?.placeholder = placeholder
         }
         textField?.text = previousSelectedString
@@ -248,10 +236,11 @@ extension DownPickerSwift {
     
     @objc func doneClicked() {
         textField.resignFirstResponder()
-        if textField?.text?.count == 0 || !dataArray.contains((textField?.text)!) {
+        if let text = textField.text, text.count == 0 || !dataArray.contains(text) {
             setValue(at: -1)
             textField?.placeholder = placeholder
         }
+        previousSelectedString = textField.text
         sendActions(for: .valueChanged)
     }
     

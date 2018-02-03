@@ -42,13 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		022EDCD1442F86502E16F1F768A187DE /* Pods-DownPickerSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DownPickerSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		022EDCD1442F86502E16F1F768A187DE /* Pods-DownPickerSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DownPickerSwift_Tests.modulemap"; sourceTree = "<group>"; };
 		10CCB9C511352673767EE8666A324C91 /* Pods-DownPickerSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownPickerSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		127894D4CF711828A3FD40F3F1035ECA /* downArrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "downArrow@2x.png"; path = "DownPickerSwift/Assets/downArrow@2x.png"; sourceTree = "<group>"; };
-		1B5AC616DD468DC6B8DD288C9B27B62D /* Pods_DownPickerSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DownPickerSwift_Tests.framework; path = "Pods-DownPickerSwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5AC616DD468DC6B8DD288C9B27B62D /* Pods_DownPickerSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownPickerSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2454CE5471853F6C2029B240E7CAA7F6 /* Pods-DownPickerSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DownPickerSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		295042BB6E8805598F5837038A986E73 /* Pods-DownPickerSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DownPickerSwift_Example.modulemap"; sourceTree = "<group>"; };
-		2EC151AC7BA0DB20E7B9529E705E8212 /* DownPickerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DownPickerSwift.modulemap; sourceTree = "<group>"; };
+		295042BB6E8805598F5837038A986E73 /* Pods-DownPickerSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DownPickerSwift_Example.modulemap"; sourceTree = "<group>"; };
+		2EC151AC7BA0DB20E7B9529E705E8212 /* DownPickerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DownPickerSwift.modulemap; sourceTree = "<group>"; };
 		3ED3A18992F942D4786D695ABEE8E95F /* DownPickerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DownPickerSwift-prefix.pch"; sourceTree = "<group>"; };
 		3F14E242DF40C5D189516F686037ADED /* Pods-DownPickerSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DownPickerSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4B191D7479E57764B1D77E1212911BA0 /* downArrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = downArrow.png; path = DownPickerSwift/Assets/downArrow.png; sourceTree = "<group>"; };
@@ -57,11 +57,11 @@
 		5525F96892F164B847A6767E30A95E97 /* Pods-DownPickerSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownPickerSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6B475D020271EA5B337C776F187D8380 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C070D2CD31A61AA8B85A5C671AD16F3 /* DownPickerSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownPickerSwift.swift; path = DownPickerSwift/Classes/DownPickerSwift.swift; sourceTree = "<group>"; };
-		8434791390A884AE043D1A549DECF0AD /* DownPickerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DownPickerSwift.framework; path = DownPickerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8434791390A884AE043D1A549DECF0AD /* DownPickerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DownPickerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F3C33FF91A25D74044F1BC5B103D54 /* Pods-DownPickerSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DownPickerSwift_Tests-dummy.m"; sourceTree = "<group>"; };
-		8AB273B7104DE3374D2D2C047B3B309F /* DownPickerSwift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DownPickerSwift.bundle; path = DownPickerSwift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB273B7104DE3374D2D2C047B3B309F /* DownPickerSwift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownPickerSwift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		932203522B04C121E7E4D884CA23BBA9 /* Pods-DownPickerSwift_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DownPickerSwift_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		952917C8F351C849544AA891C3312A69 /* Pods-DownPickerSwift_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DownPickerSwift_Example-resources.sh"; sourceTree = "<group>"; };
 		9CAC84FFA8AD75AE85B424D053CBD563 /* Pods-DownPickerSwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DownPickerSwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		9D5CC4F53E5474BE4EECDE6222EB879F /* Pods-DownPickerSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DownPickerSwift_Example-dummy.m"; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		F45CC7EC8F5CEB6BB5333B1332925AEF /* downArrow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "downArrow@3x.png"; path = "DownPickerSwift/Assets/downArrow@3x.png"; sourceTree = "<group>"; };
 		F6619D70EC80D5D2F099963F9E6389EE /* DownPickerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DownPickerSwift-umbrella.h"; sourceTree = "<group>"; };
 		FAAB461E103C07EBB9A69394AD0D53AD /* Pods-DownPickerSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DownPickerSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FED1A4E4F4AA9DA86911301015817E0F /* Pods_DownPickerSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DownPickerSwift_Example.framework; path = "Pods-DownPickerSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED1A4E4F4AA9DA86911301015817E0F /* Pods_DownPickerSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownPickerSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -354,7 +354,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0920;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -609,6 +609,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
