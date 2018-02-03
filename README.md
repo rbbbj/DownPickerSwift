@@ -1,15 +1,7 @@
-# DownPickerSwift
+# DownPicker
 
-[![CI Status](http://img.shields.io/travis/rbbbj/DownPickerSwift.svg?style=flat)](https://travis-ci.org/rbbbj/DownPickerSwift)
-[![Version](https://img.shields.io/cocoapods/v/DownPickerSwift.svg?style=flat)](http://cocoapods.org/pods/DownPickerSwift)
-[![License](https://img.shields.io/cocoapods/l/DownPickerSwift.svg?style=flat)](http://cocoapods.org/pods/DownPickerSwift)
-[![Platform](https://img.shields.io/cocoapods/p/DownPickerSwift.svg?style=flat)](http://cocoapods.org/pods/DownPickerSwift)
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+DownPicker is an extremely light-weight class library for creating *DropDownList* / *ComboBox* controls for iOS that will behave like their HTML / Android counterparts.
+You'll only need a standard **UITextField** and few lines of code.
 
 ## Installation
 
@@ -20,10 +12,14 @@ it, simply add the following line to your Podfile:
 pod 'DownPickerSwift'
 ```
 
+## Acknowledgements
+
+DownPickerSwift is Swift port (not complete) of Darkseal/DownPicker.
+
 ## Author
 
-rbbbj, robertasbaronas@hotmail.com
+Robert, robertasbaronas@hotmail.com
 
 ## License
 
-DownPickerSwift is available under the MIT license. See the LICENSE file for more info.
+DownPicker is available under the MIT license. See the LICENSE file for more info.
